@@ -1,13 +1,13 @@
 #include "p16f84.inc"
 
 c_array_base set 0x010
-c_array_size set 0xA
+c_array_size set 0x5
 c_eeprom_location set 0x0
 
 v_i equ 0x0c
 
 org 0x2100
-str de "BSUIR-POVS"
+str de "BSUIR"
 org 0x0
 	
 	GOTO BEGIN	
